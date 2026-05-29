@@ -22,7 +22,7 @@ export function Hero() {
         transition={{ duration: 8, ease: 'easeOut' }}
       >
         <img
-          src="/images/IMG_2181.jpg"
+          src="/IMG_2181.jpg"
           alt=""
           className="w-full h-full object-cover"
         />

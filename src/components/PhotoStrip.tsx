@@ -2,12 +2,12 @@ import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 const photos = [
-  { src: '/images/P001.jpg', rotate: -2 },
-  { src: '/images/IMG_2158.jpeg', rotate: 1.5 },
-  { src: '/images/IMG_8773.jpeg', rotate: -1 },
-  { src: '/images/P131.jpg', rotate: 2 },
-  { src: '/images/28E94F65-6942-4C14-A98F-32AD8007C5E0.JPG', rotate: -1.5 },
-  { src: '/images/P220.jpeg', rotate: 1 },
+  { src: '/P001.jpg', rotate: -2 },
+  { src: '/IMG_2158.jpeg', rotate: 1.5 },
+  { src: '/IMG_8773.jpeg', rotate: -1 },
+  { src: '/P131.jpg', rotate: 2 },
+  { src: '/28E94F65-6942-4C14-A98F-32AD8007C5E0.JPG', rotate: -1.5 },
+  { src: '/P220.jpeg', rotate: 1 },
 ]
 
 export function PhotoStrip() {

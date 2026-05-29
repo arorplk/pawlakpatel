@@ -3,17 +3,17 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 const scenes = [
   {
-    image: '/images/IMG_8773.jpeg',
+    image: '/IMG_8773.jpeg',
     text: 'It started with a look across the room that neither of us could explain.',
     position: 'left' as const,
   },
   {
-    image: '/images/28E94F65-6942-4C14-A98F-32AD8007C5E0.JPG',
+    image: '/28E94F65-6942-4C14-A98F-32AD8007C5E0.JPG',
     text: 'We did everything together. Even the weird stuff. Especially the weird stuff.',
     position: 'right' as const,
   },
   {
-    image: '/images/IMG_2170.JPG',
+    image: '/IMG_2170.JPG',
     text: 'And then, on a beach in Hawaii, with the sun going down and the waves rolling in\u2014',
     position: 'center' as const,
   },

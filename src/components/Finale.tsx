@@ -14,7 +14,7 @@ export function Finale() {
     <section ref={ref} className="relative h-screen w-full overflow-hidden">
       <motion.div className="absolute inset-0" style={{ scale }}>
         <img
-          src="/images/IMG_2152.JPG"
+          src="/IMG_2152.JPG"
           alt=""
           className="w-full h-full object-cover"
         />
