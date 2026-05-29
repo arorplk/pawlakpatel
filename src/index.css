@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sand-50: #fdfaf6;
+  --color-sand-100: #f9f2e8;
+  --color-sand-200: #f0e2cc;
+  --color-sand-300: #e5ccaa;
+  --color-sand-400: #d4a873;
+  --color-sand-500: #c4884a;
+  --color-sand-600: #a86d3a;
+  --color-sand-700: #8c5530;
+  --color-sand-800: #6e4028;
+  --color-sand-900: #4a2c1c;
+
+  --color-ocean-50: #f0f7fa;
+  --color-ocean-100: #dceef5;
+  --color-ocean-200: #b5dcea;
+  --color-ocean-300: #82c4d9;
+  --color-ocean-400: #4da6c2;
+  --color-ocean-500: #2d8aa8;
+  --color-ocean-600: #236e88;
+  --color-ocean-700: #1c576d;
+  --color-ocean-800: #164352;
+  --color-ocean-900: #0f2e3a;
+
+  --color-sunset-50: #fef7f0;
+  --color-sunset-100: #fceadb;
+  --color-sunset-200: #f8d2b3;
+  --color-sunset-300: #f2b485;
+  --color-sunset-400: #ea8f52;
+  --color-sunset-500: #e07030;
+  --color-sunset-600: #c45620;
+  --color-sunset-700: #a14419;
+  --color-sunset-800: #7d3514;
+  --color-sunset-900: #5a260f;
+
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-sand-50);
+  color: var(--color-sand-900);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100svh;
+}
